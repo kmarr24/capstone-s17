@@ -1,0 +1,311 @@
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 500;
+  box-shade:  0px 2px 10px #8d140b;
+  padding: 15px 0 8px 0;
+  background-color: #8d140b;
+
+}
+.branding {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/788829/logo1.svg) no-repeat;
+  display: block;
+  width: 170px;
+  height: 40px;
+  float: left;
+  text-indent:-9999px;
+}
+
+nav{
+  margin-top:10px;
+  float: right;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: right;
+}
+
+nav li {
+  font-family: 'roboto', san-serif;
+  font-weight:900;
+  font-size: .8em;
+  letter-spacing:  .1em;
+  text-transform: uppercase;
+  display: inline-block;
+  padding-left:20px;
+  cursor: pointer;
+}
+
+nav li a:link{
+  color:#091c5a;
+  text-decoration:none;
+  outline:0;
+}
+
+nav li a:vistited {
+  color: #091c5a;
+  text-decoration:none;
+  outline:0;
+}
+
+nav li a:hover {
+  color: #ff6600;
+  text-decoration:none;
+}
+
+nav li a:active{
+  color:#ff6600;
+  text-decoration:none;
+}
+
+box{
+ width:100%;
+  height:170px;
+  background-color: #8d140b;
+}
+
+h1 {
+  font-family: "Futura-pt",sans-serif;
+font-size:3.2em;
+color:#95989a;
+margin-top:15px;
+}
+
+h2 {
+  font-family: "Futura-pt",sans-serif;
+font-size:3.2em;
+color:#95989a;
+margin-top:15px;
+  text-align: center;
+}
+
+p {
+  font-family: "adobe-caslon-pro",serif;
+  font-size:1em;
+font-weight:300;
+  line-height:25pt;
+  color:#95989a;
+}
+
+p1 {
+  font-family: "adobe-caslon-pro",serif;
+  font-size:1em;
+font-weight:300;
+  color:#95989a;
+}
+
+img{
+  width:100%;
+}
+
+.main{
+  width:100%;
+  padding:100px 0;
+  background-color:#240301;
+  float:left;
+}
+
+.main-homeless{
+  width:100%;
+  padding:100px 0;
+  background-color:#240301;
+  float:left;
+}
+
+.main-ptsd{
+  width:100%;
+  padding:100px 0;
+  background-color:#240301;
+  float:left;
+}
+
+.main-ads{
+  width:100%;
+  padding:100px 0;
+  background-color:#240301;
+  float:left;
+}
+
+.main-news{
+  width:100%;
+  padding:100px 0;
+  background-color:#240301;
+  float:left;
+}
+
+.main-donate{
+  width:100%;
+  padding:100px 0;
+  background-color:#240301;
+  float:left;
+}
+
+.leading {
+  font-family: "roboto",sans-serif;
+  font-weight:700;
+}
+
+.cutline {
+  font-family: "roboto",sans-serif;
+  font-weight:400;
+}
+
+.section-head {
+  font-family: "roboto",sans-serif;
+  font-weight:700;
+text-transform:uppercase;
+text-align:center;
+font-size:.8em;
+margin-bottom:0;
+color: #938b84;
+}
+
+.main hr{
+  border: 0 none;
+  height:3px;
+  background: #8d140b;
+  clear: both;
+  display:black;
+  width:60px;
+  margin:0 auto;
+}
+
+@font-face {
+      font-family: 'fontello';
+      src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/788829/fontello.eot?11305084');
+      src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/788829/fontello.eot?11305084#iefix') format('embedded-opentype'),
+           url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/788829/fontello.woff?11305084') format('woff'),
+           url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/788829/fontello.ttf?11305084') format('truetype'),
+           url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/788829/ing.svg?11305084#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+
+#contact {
+  width: 100;
+  padding: 100px 0;
+  background: url(../images/horizon.jpg);
+}
+
+#contact h2{
+  font-family: 'Bebas Neue', sans-serif;
+  width: 700;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+}
+
+#contact p{
+  padding-bottom: 20px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+#contact {
+width: 100%;
+padding: 100px 0 100px 0;
+background-color: #240301;
+float: left;
+}
+		
+
+
+.contact-form img {
+width: 460px;
+padding: 0;
+font-family: 'Bebas Neue', sans-serif;
+font-size: 0.9em;
+font-weight: 100;
+color: #FFFFFF;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea
+.contact-form select {
+font-weight: 100;
+color: #888;
+padding: 5px 5px 5px 10px;
+border: 1px solid #6079a5;
+height: 35px;
+margin-bottom: 25px;
+outline: 0 none;
+width: 460px;
+}
+
+.contact-form textarea {
+height: 200px;
+}
+
+#message {
+height: 200px;
+width: 935px;
+}
+
+.contact-form select {
+text-indent: 0.01px;
+text-overflow: '';
+width: 100%;
+height: 35px;
+}
+
+.city {
+text-transform: uppercase;
+font-weight: 900;
+}
+
+
+.contact-form input.button {
+width: 100px;
+/*same as the height*/
+height: 40px;
+/*same as the width*/
+background-color: #8d140b;
+
+/*same colour as the background*/
+color: #ffffff;
+font-size: 1.1em;
+webkit-appearence: none;
+/*set the border-radius at half the width and height*/
+webkit-border-radius: 35px;
+moz-border-radius: 35px;
+border-radius: 35px;
+border: none;
+}
+
+#icon-font {
+  width: 100%;
+  padding: 50px 0;
+  background-color: #8d140b;
+}
+
+#icon-font p:{
+  text-align: center;
+  margin: 0;
+}
+
+#icon-font .icons {
+  font-family:'fontello';
+  text-align:center;
+  font-size:3em;
+  line-height: 1.5;
+  color: #240301;
+}
+
+#icon-font .ig-icon {
+  font-family:'fontello';
+  text-align: center;
+  font-size:83em;
+  line-height:1.1;
+  color:#091c5a;
+    color: #091c5a;
+}
+
+.icon p{
+  font-size:1.8;
+}
+
